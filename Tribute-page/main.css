@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Montserrat&family=Poppins&family=Raleway&family=Roboto&family=Roboto+Condensed&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    color: #dbd9d9;
+    background-color: #121619;
+    text-align: center;
+}
+ul {
+    max-width: 34.375rem;
+    margin: 2rem auto 5rem auto;
+    text-align: left;
+    border-radius: 0.9rem;
+}
+li {
+    
+    padding: 0.5rem 0 0.7rem 0.5rem;
+    border-radius: 0.9rem;
+}
+li:hover{
+    background-color: #23272b;
+    transition: ease-in 1s;
+    color: #f6f1f1;
+
+}
+a {
+    color: #a5e229;
+    border-radius: 0.9rem;
+    text-decoration: none;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+}
+a:hover {
+    background-color: #23272b;
+    transition: ease-in 500ms;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    
+    background-color: #121619;
+    font-family: 'Mochiy Pop One', 'Montserrat', 'Raleway'
+                'Roboto', 'Roboto Condensed', monospace;
+}
+#main{
+    margin-top: 0;
+    font-size: 1.25rem;
+    min-width: 22.5rem;
+    width: auto;
+    
+    
+}
+#title{
+    font-size: 2.5rem;
+    margin-bottom: 0;
+    font-family: 'Roboto', monospace;
+}
+
+#img-div{
+    height: auto;
+    margin-top: 1rem;
+    align-self: center;
+}
+#image{
+    display: block;
+    width: 56.25rem;
+    max-width: 100%;
+    height: auto;
+    justify-self: center;
+}
+#img-caption{
+    margin-top: 1rem;
+    font-family: 'Roboto Condensed', monospace;
+}
+
+#tribute-info{
+    font-family: 'Poppins', sans-serif;
+
+}
+#tribute-info strong{
+    color: #e3e3e3;
+}
+.para-size{
+    font-family: 'Roboto Condensed', monospace;
+}
+.tribute-div{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    padding-bottom: 0.9rem;
+}
+
+.footer-size{
+    max-width: 100%;
+    background-color: #94d019;
+    color: #121212;
+    font-family: 'Raleway', monospace;
+    font-weight: 800;
+    text-align: center;
+}
+@media (max-width: 600px){
+    ul{
+        margin: auto;
+        max-width: 21.88rem;
+    }
+    #main{
+        font-size: 1rem;
+    }
+    #title{
+        font-size: 2rem;
+    }
+    #image{
+        max-width: 25rem;
+        padding: 0.625rem 0.625rem 0.625rem 0.625rem;
+    }
+    #img-caption{
+        max-width: 28.125rem;
+        margin-top: 0.75rem;
+    }
+    .tribute-div{
+        font-size: 0.75rem;
+    }
+    .footer-size{
+        width: 100%;
+    }
+}
+
